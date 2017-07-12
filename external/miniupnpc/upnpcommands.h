@@ -97,7 +97,7 @@ UPNP_GetLinkLayerMaxBitRates(const char* controlURL,
  * NON ZERO : ERROR. Either an UPnP error code or an unknown error.
  *
  * List of possible UPnP errors for AddPortMapping :
- * errorCode errorDescription (short) - Description (long)
+ * errorCode errorDescription (short) - Description (long)UPNP_AddPortMapping error
  * 402 Invalid Args - See UPnP Device Architecture section on Control.
  * 501 Action Failed - See UPnP Device Architecture section on Control.
  * 606 Action not authorized - The action requested REQUIRES authorization and
