@@ -533,7 +533,7 @@ m_minerTxBlobReservedSize(currency.m_minerTxBlobReservedSize),
 m_maxTransactionSizeLimit(currency.m_maxTransactionSizeLimit),
 m_numberOfDecimalPlaces(currency.m_numberOfDecimalPlaces),
 m_coin(currency.m_coin),
-m_minimumFee(currency.m_minimumFee),
+m_mininumFee(currency.m_mininumFee),
 m_defaultDustThreshold(currency.m_defaultDustThreshold),
 m_difficultyTarget(currency.m_difficultyTarget),
 m_difficultyWindow(currency.m_difficultyWindow),
@@ -583,7 +583,7 @@ maxTransactionSizeLimit(parameters::MAX_TRANSACTION_SIZE_LIMIT);
 
   numberOfDecimalPlaces(parameters::CRYPTONOTE_DISPLAY_DECIMAL_POINT);
 
-  minimumFee(parameters::MINIMUM_FEE);
+  mininumFee(parameters::MINIMUM_FEE);
   defaultDustThreshold(parameters::DEFAULT_DUST_THRESHOLD);
 
   difficultyTarget(parameters::DIFFICULTY_TARGET);
